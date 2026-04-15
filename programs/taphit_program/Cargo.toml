@@ -1,0 +1,13 @@
+[package]
+name = "taphit_program"
+version = "0.1.0"
+description = "Taphit onchain binary options trading"
+edition = "2021"
+
+[lib]
+crate-type = ["cdylib", "lib"]
+name = "taphit_program"
+
+[dependencies]
+anchor-lang = "0.30.1"
+anchor-spl = "0.30.1"
